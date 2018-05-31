@@ -1,0 +1,21 @@
+{
+  "name": "webspider",
+  "version": "1.0.0",
+  "description": "web spider",
+  "main": "index.js",
+  "repository": "git@github.com:juncaixinchi/spider.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "spider"
+  ],
+  "author": "juncaixinchi",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "superagent": "^3.8.2",
+    "superagent-proxy": "^1.0.3"
+  }
+}
